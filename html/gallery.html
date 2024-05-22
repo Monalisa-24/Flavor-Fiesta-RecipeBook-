@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/gallery.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Flavor Fiesta</title>
+  </head>
+  <body>
+    <section>
+      <input type="checkbox" id="check" />
+      <header>
+        <h2><img src="/image/logo/logo (1).png" class="logo"></img></h2>
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="findReceipe.html">Find Reciepes</a>
+          <a href="gallery.html">Gallery</a>
+        </div>
+        <label for="check">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+          <i class="fa-sharp fa-solid fa-xmark"></i>
+        </label>
+      </header>
+      <div class="container">
+        <h1 class="gallery-heading">Our Gallery</h1>
+        <div class="filter-btn">
+        <button class="active" data-name="all">Show All</button>
+        <button data-name="biriyani">Biriyani</button>
+        <button data-name="juice">Juice</button>
+        <button data-name="paneer">Paneer</button>
+        <button data-name="pizza">Pizza</button>
+        </div>
+        
+        <!-- images cards -->
+        <div class="filterable-cards">
+            <div class="card" data-name="biriyani">
+                <img src="/../image/biriyani/biriyani (1).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Biriyani</h3>
+                    <p class="card-text">Chicken Biriyani</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="biriyani">
+                <img src="/../image/biriyani/biriyani (2).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Biriyani</h3>
+                    <p class="card-text">Veg Biriyani</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="biriyani">
+                <img src="/../image/biriyani/biriyani (3).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Biriyani</h3>
+                    <p class="card-text">Chicken Dum Biriyani</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="biriyani">
+                <img src="/../image/biriyani/biriyani (4).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Biriyani</h3>
+                    <p class="card-text">Hyderabadi Chicken Biriyani</p>
+                </div>
+            </div>
+
+
+            <div class="card" data-name="juice">
+                <img src="/../image/Juice/Juice (1).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Juice</h3>
+                    <p class="card-text">Pomegranate Juice</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="juice">
+                <img src="/../image/Juice/Juice (2).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Juice</h3>
+                    <p class="card-text">Orange Juice</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="juice">
+                <img src="/../image/Juice/Juice (3).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Juice</h3>
+                    <p class="card-text">Strawberry Juice</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="juice">
+                <img src="/../image/Juice/Juice (4).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Juice</h3>
+                    <p class="card-text">Raspberry Juice</p>
+                </div>
+            </div>
+
+            <div class="card" data-name="paneer">
+                <img src="/../image/Paneer/Paneer (1).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Paneer</h3>
+                    <p class="card-text">Paneer Butter Masala</p>
+                </div>
+            </div>
+            <div class="card" data-name="paneer">
+                <img src="/../image/Paneer/Paneer (2).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Paneer</h3>
+                    <p class="card-text">Chilli Paneer</p>
+                </div>
+            </div>
+            <div class="card" data-name="paneer">
+                <img src="/../image/Paneer/Paneer (3).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Paneer</h3>
+                    <p class="card-text">Paneer Tikka</p>
+                </div>
+            </div>
+            <div class="card" data-name="paneer">
+                <img src="/../image/Paneer/Paneer (4).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Paneer</h3>
+                    <p class="card-text">Paneer Tikka Kabab</p>
+                </div>
+            </div>
+
+
+            <div class="card" data-name="pizza">
+                <img src="/../image/Pizza/Pizza (1).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Pizza</h3>
+                    <p class="card-text">Margarita Pizza</p>
+                </div>
+            </div>
+            <div class="card" data-name="pizza">
+                <img src="/../image/Pizza/Pizza (2).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Pizza</h3>
+                    <p class="card-text">Veg loaded Pizza</p>
+                </div>
+            </div>
+            <div class="card" data-name="pizza">
+                <img src="/../image/Pizza/Pizza (3).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Pizza</h3>
+                    <p class="card-text">Chicken Sausage Pizza</p>
+                </div>
+            </div>
+            <div class="card" data-name="pizza">
+                <img src="/../image/Pizza/Pizza (4).jpg" alt="" srcset="">
+                <div class="card-body">
+                    <h3 class="card-title">Pizza</h3>
+                    <p class="card-text">Mashroom Pizza with Jolapeno and Onion</p>
+                </div>
+            </div>
+
+
+
+            
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright"></div>
+    </footer>
+
+    <script defer src="../js/activePage.js"></script>
+    <script src="../js/index.js" defer></script>
+  </body>
+</html>

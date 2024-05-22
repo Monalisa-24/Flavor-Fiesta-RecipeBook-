@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/findReceipe.css" />
+    <link rel="stylesheet" href="../css/recipe.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>Flavor Fiesta</title>
+  </head>
+  <body>
+    <section>
+      <input type="checkbox" id="check" />
+      <header>
+        <h2><img src="/image/logo/logo (1).png" class="logo"></img></h2>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="findReceipe.html">Find Reciepes</a>
+            <a href="gallery.html">Gallery</a>
+          </div>
+        <label for="check">
+          <i class="fa-sharp fa-solid fa-bars"></i>
+          <i class="fa-sharp fa-solid fa-xmark"></i>
+        </label>
+      </header>
+      <div class="container">
+        <h1 id="recipe-title">Recipe Title</h1>
+        <div id="recipe-details"></div>
+        <button id="list-all-recipes" style="display: none;">List of Our Recipes</button>
+      </div>
+      <div class="listRecipeContainer">
+        <div class="list-card">
+            <div id="all-recipes" style="display: none;"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="copyright"></div>
+    </footer>
+    <script defer src="../js/activePage.js"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/recipe.js"></script>
+  </body>
+</html>
